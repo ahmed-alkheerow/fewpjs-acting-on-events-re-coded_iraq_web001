@@ -36,3 +36,11 @@ document.addEventListener("keydown", function(e) {
     dodger.style.left = `${left + 1}px`;
   }
 });
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowUp") {
+    let bottomNumbers = dodger.style.bottom.replace("px", "");
+    let bottom = parseInt(bottomNumbers, 10);
+ 
+    dodger.style.bottom = `${bottom + 1}px`;
+  }
+});
