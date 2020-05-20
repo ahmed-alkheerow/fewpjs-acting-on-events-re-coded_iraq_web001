@@ -41,4 +41,3 @@ document.addEventListener("keydown", function(e) {
     dodger.style.bottom = `${bottom + 1}px`;
   }
 });
-
