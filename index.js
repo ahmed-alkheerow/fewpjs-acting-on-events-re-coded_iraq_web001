@@ -29,7 +29,7 @@ document.addEventListener("keydown", function(e) {
 });
 
 document.addEventListener("keydown", function(e) {
-  if (e.key === "ArrowLeft") {
+  if (e.key === "ArrowRight") {
     let leftNumbers = dodger.style.left.replace("px", "");
     let left = parseInt(leftNumbers, 10);
 
