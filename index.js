@@ -34,7 +34,7 @@ moveDodgerRight();
 
     dodger.style.bottom = `${bottom + 1}px`;
   }
-  if (e.key === "ArrowUp") {
+  if (e.key === "ArrowDown") {
     let bottomNumbers = dodger.style.bottom.replace("px", "");
     let bottom = parseInt(bottomNumbers, 10);
 
